@@ -54,7 +54,7 @@ public class Program {
 
             System.in.read();
 
-            int result = code1 + code2;
+            int result = 256 * code1 + code2;
             return  result;
 
         }
